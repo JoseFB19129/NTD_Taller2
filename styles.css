@@ -96,6 +96,33 @@ ul li:hover {
     background: rgba(255, 0, 0, 0.5);
 }
 
+/* Tarjetas de habilidades */
+.habilidad {
+    background: linear-gradient(90deg, #2b0000, #000);
+    border-left: 6px solid #ffd700;
+    padding: 1rem 1.5rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.habilidad:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 25px rgba(255, 0, 0, 0.8);
+}
+
+.habilidad h3 {
+    color: #ff0000;
+    margin-bottom: 0.5rem;
+}
+
+.habilidad p {
+    margin: 0;
+    color: #ddd;
+}
+
+
 /* Footer */
 footer {
     background: #111;
